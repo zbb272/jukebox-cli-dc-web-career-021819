@@ -47,7 +47,7 @@ def run(songs)
   help 
   user_response = ""
   keep_running = true
-  while keep_running == true
+  while keep_running
     puts "Please enter a command:"
     user_response = gets.chomp
     case user_response
