@@ -70,9 +70,9 @@ def run(my_songs)
     user_response = gets.chomp
     case user_response
       when "list"
-        list(songs)
+        list(my_songs)
       when "play"
-        play(songs)
+        play(my_songs)
       when "help"
         help 
       when "exit"
