@@ -26,7 +26,7 @@ end
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
-  my_songs.each do | song, link | 
+  my_songs.each do | song, path | 
     puts "#{song}"
   end 
 end
@@ -43,9 +43,10 @@ def play(my_songs)
   puts "Please enter a song name:"
   user_response = gets.chomp 
   valid_input = false 
-  my_songs.each do | song, link |
+  my_songs.each do | song, path |
     if user_response == song 
       puts "Playing #{song}"
+      system open path
       valid_input = true 
     end 
   end 
