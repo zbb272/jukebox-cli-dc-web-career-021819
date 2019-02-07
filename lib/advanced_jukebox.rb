@@ -8,7 +8,7 @@ my_songs = {
 "Hamburg" =>  '/home/honest-subroutine-5222/jukebox-cli-dc-web-career-021819/jukebox-cli/audio/Emerald-Park/03.mp3',
 "Guiding Light" => '/home/honest-subroutine-5222/jukebox-cli-dc-web-career-021819/jukebox-cli/audio/Emerald-Park/04.mp3',
 "Wolf" => '/home/honest-subroutine-5222/jukebox-cli-dc-web-career-021819/jukebox-cli/audio/Emerald-Park/05.mp3',
-"Blue" => '/home/honest-subroutine-5222/jukebox-cli-dc-web-career-021819/audio/Emerald-Park/06.mp3',
+"Blue" => '/home/honest-subroutine-5222/jukebox-cli/audio/Emerald-Park/06.mp3',
 "Graduation Failed" => '/home/honest-subroutine-5222/jukebox-cli-dc-web-career-021819/jukebox-cli/audio/Emerald-Park/07.mp3'
 }
 
