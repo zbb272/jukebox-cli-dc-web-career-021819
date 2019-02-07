@@ -59,6 +59,7 @@ def run(songs)
         exit_jukebox
         user_response = nil
     end 
+    puts "Please enter a command:"
     user_response = gets.chomp
   end 
 end 
