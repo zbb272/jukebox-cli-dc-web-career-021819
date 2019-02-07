@@ -19,7 +19,6 @@ def help
   puts "- list : displays a list of songs you can play"
   puts "- play : lets you choose a song to play"
   puts "- exit : exits this program"
-end 
 end
 
 
@@ -27,6 +26,9 @@ end
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
+  songs.each_with_index do | song, index | 
+    puts "#{index + 1}. #{song}"
+  end 
 end
 
 
