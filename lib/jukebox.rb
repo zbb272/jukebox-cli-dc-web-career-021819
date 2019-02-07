@@ -29,5 +29,7 @@ def play(songs)
   user_response = gets.chomp 
   songs.each_with_index do | song, index |
     if user_response == song || user_response == (index + 1).to_s 
+      puts "Playing #{song}"
+    end 
   end 
 end 
