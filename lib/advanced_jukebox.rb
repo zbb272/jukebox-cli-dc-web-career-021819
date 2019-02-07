@@ -26,8 +26,10 @@ end
 def list(my_songs)
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
-  songs.each_with_index do | song, index | 
-    puts "#{index + 1}. #{song}"
+  counter = 1
+  my_songs.each do | song, link | 
+    puts "#{counter}. #{song}"
+    counter += 1 
   end 
 end
 
