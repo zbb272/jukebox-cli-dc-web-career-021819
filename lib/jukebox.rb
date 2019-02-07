@@ -20,7 +20,7 @@ end
 
 def list(songs)
   counter = 1 
-  songs.each do | song | 
+  songs.each_with_index do | song | 
     puts "#{counter}. #{song}"
   end 
 end 
