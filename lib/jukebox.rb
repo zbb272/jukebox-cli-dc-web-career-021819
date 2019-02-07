@@ -23,3 +23,11 @@ def list(songs)
     puts "#{index + 1}. #{song}"
   end 
 end 
+
+def play(songs)
+  puts "Please enter a song name or number:"
+  user_response = gets.chomp 
+  songs.each_with_index do | song, index |
+    if user_response == song || user_response == (index + 1).to_s 
+  end 
+end 
