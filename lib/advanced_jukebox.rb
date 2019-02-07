@@ -61,4 +61,22 @@ end
 
 def run(my_songs)
   #this method is the same as in jukebox.rb
+  help 
+  user_response = ""
+  keep_running = true
+  while keep_running
+    puts "Please enter a command:"
+    user_response = gets.chomp
+    case user_response
+      when "list"
+        list(songs)
+      when "play"
+        play(songs)
+      when "help"
+        help 
+      when "exit"
+        exit_jukebox
+        keep_running = false
+    end 
+  end 
 end
