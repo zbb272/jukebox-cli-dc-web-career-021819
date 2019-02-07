@@ -47,7 +47,7 @@ def run(songs)
   help 
   puts "Please enter a command:"
   user_response = gets.chomp 
-  while user_response != nil 
+  while user_response != "force stop" 
     case user_response
       when "list"
         list(songs)
@@ -57,7 +57,7 @@ def run(songs)
         help 
       when "exit"
         exit_jukebox
-        user_response = nil
+        user_response = "force stop"
     end 
     puts "Please enter a command:"
     user_response = gets.chomp
