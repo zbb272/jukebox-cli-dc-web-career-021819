@@ -47,4 +47,8 @@ def run
   help 
   puts "Please enter a command:"
   user_response = gets.chomp 
+  while user_response != exit 
+    user_response = gets.chomp 
+    case 
+  
 end 
