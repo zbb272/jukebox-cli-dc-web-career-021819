@@ -47,7 +47,7 @@ def run(songs)
   help 
   puts "Please enter a command:"
   user_response = gets.chomp 
-  while user_response != exit 
+  while user_response != "exit" 
     user_response = gets.chomp 
     case user_response
       when "list"
