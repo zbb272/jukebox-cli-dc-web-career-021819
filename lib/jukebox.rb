@@ -49,6 +49,7 @@ def run
   user_response = gets.chomp 
   while user_response != exit 
     user_response = gets.chomp 
-    case 
+    case user_response
+      
   
 end 
