@@ -59,5 +59,8 @@ def run(songs)
         exit_jukebox
     end 
     user_response = gets.chomp
+    if user_response = "exit"
+      exit_jukebox
+    end 
   end 
 end 
