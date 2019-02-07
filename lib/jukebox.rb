@@ -50,6 +50,6 @@ def run
   while user_response != exit 
     user_response = gets.chomp 
     case user_response
-      
-  
+      when 
+    end 
 end 
