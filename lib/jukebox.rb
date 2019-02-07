@@ -45,6 +45,7 @@ end
 
 def run(songs)
   help 
+  user_response = ""
   keep_running = true
   while keep_running == true
     puts "Please enter a command:"
