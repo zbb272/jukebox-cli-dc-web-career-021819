@@ -54,7 +54,6 @@ def play(my_songs)
   if valid_input == false 
     puts "Invalid input, please try again"
   end 
-end 
 end
 
 def exit_jukebox
