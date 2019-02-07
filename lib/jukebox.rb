@@ -18,8 +18,7 @@ def help
   puts "- exit : exits this program"
 end 
 
-def list(songs)
-  counter = 1 
+def list(songs) 
   songs.each_with_index do | song, index | 
     puts "#{index + 1}. #{song}"
   end 
